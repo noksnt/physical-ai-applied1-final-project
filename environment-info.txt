@@ -1,0 +1,9 @@
+OS: Linux-6.17.0-40-generic-x86_64-with-glibc2.39
+Python: 3.12.3
+mani_skill: 3.0.1
+sapien: 3.0.3
+torch: 2.5.1+cu118
+gymnasium: 1.4.0
+numpy: 2.5.4
+PyTorch CUDA: 11.8
+GPU: NVIDIA GeForce GTX 1060 6GB
