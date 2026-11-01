@@ -58,7 +58,7 @@ def make_label(path, gripper, status):
         font = ImageFont.load_default()
 
     color = {"SUCCESS": "#8FE0A8", "FAILURE": "#FF9999"}.get(status, "white")
-    draw.text((14, 12), f"Gripper {gripper:g}", font=font, fill="white")
+    draw.text((14, 12), f"Gripper friction: {gripper:g}", font=font, fill="white")
     draw.text((380, 12), status, font=font, fill=color)
     image.save(path)
 
