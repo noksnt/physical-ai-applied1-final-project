@@ -12,7 +12,7 @@ import imageio_ffmpeg
 from paths import CSV_DIR, GRID_DIR, VIDEO_DIR
 from PIL import Image, ImageDraw, ImageFont
 
-FRICTIONS = (2.0, 0.5, 0.1, 0.01)
+FRICTIONS = (2.0, 1.0, 0.1, 0.01)
 FPS = 10
 WIDTH, HEIGHT = 640, 480
 
