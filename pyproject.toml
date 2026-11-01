@@ -1,0 +1,26 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+extend-exclude = [
+    "build",
+    "install",
+    "log",
+]
+
+[tool.ruff.lint]
+select = [
+    "E4",   # import関連のスタイル
+    "E7",   # コーディングスタイル
+    "E9",   # 構文エラー
+    "F",    # 未使用変数・未定義名など
+    "I",    # importの順序
+    "B",    # バグを誘発しやすいコード
+    "UP",   # 古いPython構文の改善
+]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
